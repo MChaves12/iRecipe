@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35312.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD6AB600-D8A3-4530-B5D2-E0077D21A4CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{75D492BA-BE78-4642-B514-D5246984E91D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{719A892B-C08E-4604-9F56-E172CC06A526}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{1F3C6281-D1B7-4706-82F3-82C950E5C989}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "iRecipe.API", "src\Backend\iRecipe.API\iRecipe.API.csproj", "{E558B142-F310-4C74-8DDB-2ECC37367D70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E558B142-F310-4C74-8DDB-2ECC37367D70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E558B142-F310-4C74-8DDB-2ECC37367D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E558B142-F310-4C74-8DDB-2ECC37367D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E558B142-F310-4C74-8DDB-2ECC37367D70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{719A892B-C08E-4604-9F56-E172CC06A526} = {CD6AB600-D8A3-4530-B5D2-E0077D21A4CF}
+		{1F3C6281-D1B7-4706-82F3-82C950E5C989} = {CD6AB600-D8A3-4530-B5D2-E0077D21A4CF}
+		{E558B142-F310-4C74-8DDB-2ECC37367D70} = {719A892B-C08E-4604-9F56-E172CC06A526}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3A93B0C4-734B-4F76-8265-B51142FC2F61}
+	EndGlobalSection
+EndGlobal
